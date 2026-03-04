@@ -1,11 +1,7 @@
 {
   "functions": {
-    "api/claude.js": {
-      "memory": 128,
-      "maxDuration": 30
-    }
-  },
-  "rewrites": [
-    { "source": "/api/claude", "destination": "/api/claude.js" }
-  ]
+    "api/chat.js":   { "maxDuration": 30 },
+    "api/rss.js":    { "maxDuration": 15 },
+    "api/claude.js": { "maxDuration": 30 }
+  }
 }
